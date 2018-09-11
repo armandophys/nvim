@@ -29,16 +29,17 @@ Plug 'tmhedberg/SimpylFold'
 Plug 'Konfekt/FastFold'
 " Python indenting
 Plug 'vim-scripts/indentpython.vim'
-" Autocomplete
-Plug 'Valloric/YouCompleteMe'
-" Modify YCM a little
-let g:ycm_autoclose_preview_window_after_completion=1
-map <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
+" Snippets enabled
+Plug 'roxma/nvim-completion-manager'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
-
-" Syntzx checker
-Plug 'vim-syntastic/syntastic'
+"Syntax checker specific to neovim
+Plug 'neomake/neomake'
 
 " PEP 8 checker
 Plug 'nvie/vim-flake8'
