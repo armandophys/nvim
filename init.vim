@@ -39,7 +39,7 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 "Syntax checker specific to neovim
-Plug 'neomake/neomake'
+Plug 'w0rp/ale'
 
 " PEP 8 checker
 Plug 'nvie/vim-flake8'
