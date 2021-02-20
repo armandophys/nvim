@@ -24,6 +24,8 @@ Plug 'tpope/vim-surround'
 " adds tmux navigator to use with matlab must add ctrl+hjkl commands to tmux config file
 Plug 'christoomey/vim-tmux-navigator'
 
+" add an extension to use vim in my web browser.
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 call plug#end()
 
