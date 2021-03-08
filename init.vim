@@ -24,6 +24,11 @@ Plug 'tpope/vim-surround'
 " adds tmux navigator to use with matlab must add ctrl+hjkl commands to tmux config file
 Plug 'christoomey/vim-tmux-navigator'
 
+" Snippets engine
+Plug 'SirVer/ultisnips'
+" actual snippets separately
+Plug 'honza/vim-snippets'
+
 
 call plug#end()
 
