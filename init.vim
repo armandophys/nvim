@@ -29,6 +29,8 @@ Plug 'SirVer/ultisnips'
 " actual snippets separately
 Plug 'honza/vim-snippets'
 
+" add an extension to use vim in my web browser.
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 call plug#end()
 
